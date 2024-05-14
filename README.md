@@ -14,3 +14,4 @@ Make sure you have a TestProgram that will validate the proposed refactored code
 
 Submit your repository link here.
 
+![image](https://github.com/Lester0329/SolidwithDesignPattern/assets/72334101/fe1e7718-951b-4a85-81ca-7184516cdda1)
