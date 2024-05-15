@@ -1,3 +1,5 @@
+package finals;
+
 public interface Resource {
-    void borrow(Student student);
+    void borrow(LibrarySystem.Student student);
 }
