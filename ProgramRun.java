@@ -1,14 +1,15 @@
+package finals;
+
 public class ProgramRun {
     public static void main(String[] args) {
+        LibrarySystem.Student student = new LibrarySystem.Student("Mark Lester Laurente");
 
-        Student NEU = new Student("Mark Lester Laurente");
+        Book book = new Book("Fundamentals of Programming");
+        Journal journal = new Journal("El Filibusterismo");
+        LibrarySystem.Article article = new LibrarySystem.Article("History of Philippines");
 
-        Book book = new Book("Hello World");
-        Journal journal = new Journal("The History of Programming Languages");
-        Article article = new Article("What is Java Programming Language");
-
-        NEU.borrowResource(book);
-        NEU.borrowResource(journal);
-        NEU.borrowResource(article);
+        student.borrowResource(book);
+        student.borrowResource(journal);
+        student.borrowResource(article);
     }
 }
